@@ -1,6 +1,6 @@
 # SMPP 3.4 Library
 
-[![GoDoc Badge]][GoDoc] [![GoReportCard Badge]][GoReportCard] [![Build Status](https://travis-ci.com/ajankovic/smpp.svg?branch=master)](https://travis-ci.com/ajankovic/smpp)
+[![GoDoc Badge]][GoDoc] [![GoReportCard Badge]][GoReportCard]
 
 **smpp** is library contains implementation of [SMPP 3.4 protocol](http://opensmpp.org/specs/smppv34_gsmumts_ig_v10.pdf).
 
@@ -52,11 +52,11 @@ Although usable, project is still to be considered as _WORK IN PROGRESS_ until i
 
 You can use _go get_:
 
-    go get -u github.com/ajankovic/smpp
+    go get -u github.com/grspectre/smpp
 
 ## Usage
 
-In order to do any kind of interaction you first need to create an SMPP [Session](https://godoc.org/github.com/ajankovic/smpp#Session). Session is the main carrier of the protocol and enforcer of the specification rules.
+In order to do any kind of interaction you first need to create an SMPP [Session](https://godoc.org/github.com/grspectre/smpp#Session). Session is the main carrier of the protocol and enforcer of the specification rules.
 
 Naked session can be created with:
 
@@ -100,9 +100,9 @@ If you want to handle incoming requests to the session specify SMPPHandler in se
         }),
     }
 
-Detailed examples for SMPP client and server can be found in the [examples dir](https://github.com/ajankovic/smpp/tree/master/parser).
+Detailed examples for SMPP client and server can be found in the [examples dir](https://github.com/grspectre/smpp/tree/master/parser).
 
-[GoDoc]: https://godoc.org/github.com/ajankovic/smpp
-[GoDoc Badge]: https://godoc.org/github.com/ajankovic/smpp?status.svg
-[GoReportCard]: https://goreportcard.com/report/github.com/ajankovic/smpp
-[GoReportCard Badge]: https://goreportcard.com/badge/github.com/ajankovic/smpp
+[GoDoc]: https://godoc.org/github.com/grspectre/smpp
+[GoDoc Badge]: https://godoc.org/github.com/grspectre/smpp?status.svg
+[GoReportCard]: https://goreportcard.com/report/github.com/grspectre/smpp
+[GoReportCard Badge]: https://goreportcard.com/badge/github.com/grspectre/smpp

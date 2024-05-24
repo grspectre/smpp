@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ajankovic/smpp"
-	"github.com/ajankovic/smpp/internal/mock"
-	"github.com/ajankovic/smpp/pdu"
+	"github.com/grspectre/smpp"
+	"github.com/grspectre/smpp/internal/mock"
+	"github.com/grspectre/smpp/pdu"
 )
 
 type testSequencer struct {

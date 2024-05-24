@@ -1,3 +1,3 @@
-module github.com/ajankovic/smpp
+module github.com/grspectre/smpp
 
 go 1.13
